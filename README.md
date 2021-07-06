@@ -1,4 +1,4 @@
-# Hello World
+## Calculator
 
 This is a calculator package in python that performs basic operations such as addition, substraction, multiplication, division and nth root.
 
