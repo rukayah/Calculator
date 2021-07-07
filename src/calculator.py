@@ -50,6 +50,3 @@ class Calculator:
         """Reset the memory to zero"""
         self.__memory = 0
         return self.__memory
-
-cal = Calculator()
-cal.add(4,5)
