@@ -12,10 +12,17 @@ class Calculator:
     def memory(self):
         return self.__memory
     
-    def add(self, num:float):
-        """ Takes in a number num, returns the sum of num and memory """
-        self.__memory += num
-        return self.__memory
+    def add(self, num1:float, num2:float = None):
+        """ Takes in a number num1, returns the sum of num1 and memory if num2 = None,
+        else return the sum of num1 and num2"""
+        if num2 == None:
+            result = self.__memory + num1
+            self.__memory = result
+            return result
+        else:
+            result = num1 + num2
+            self.__memory = result
+            return num1 + num2
 
     def subtract(self, num:float):
         """Takes in a number num, return the difference of memory and num"""
@@ -44,4 +51,5 @@ class Calculator:
         self.__memory = 0
         return self.__memory
 
-
+cal = Calculator()
+cal.add(4,5)
