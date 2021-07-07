@@ -50,3 +50,7 @@ class Calculator:
         """Reset the memory to zero"""
         self.__memory = 0
         return self.__memory
+
+calculator = Calculator()
+res = calculator.add(9,9)
+print(res)
