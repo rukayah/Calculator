@@ -5,12 +5,12 @@ This is a calculator package in python that performs basic operations such as ad
 ## Installation
 
 Run the following to install:
-''' python
-pip install calculator
+'''
+pip install git+ github.com/rukayah/Calculator
 '''
 
 ## Usage
-"''python
+'''
 from calculator import Calculator
 
 ## Use the addition method, with an memory value of 0. Do the same for other basic operations
